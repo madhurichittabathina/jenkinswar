@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('checkout') {
       steps {
-        git 'https://github.com/Ajayvarma8142/jenkinswar.git'
+        git 'https://github.com/Ajayvarma8142/Ajay.git'
       }
     }
     stage('build') {
