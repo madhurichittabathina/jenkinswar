@@ -27,7 +27,7 @@ pipeline {
     }
     stage('Deploy') {
       steps {
-        bat 'runapp.bat'
+        bat 'mvn tomcat8:deploy'
       }
     }
   }
