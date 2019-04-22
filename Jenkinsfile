@@ -25,5 +25,10 @@ pipeline {
         bat ' web.xml'
       }
     }
+    stage('Deploy') {
+      steps {
+        bat 'runapp.bat'
+      }
+    }
   }
 }
