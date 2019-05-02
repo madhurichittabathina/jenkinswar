@@ -2,7 +2,7 @@
 <settings>
   <profiles>
     <profile>
-      <id>default</id>
+      <id>Artifactory 6.9.1</id>
       <repositories>
         <repository>
           <id>release</id>
