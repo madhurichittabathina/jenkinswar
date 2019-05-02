@@ -36,12 +36,12 @@
   <servers>
     <server>
       <id>release</id>
-      <username>admin</username>
+      <username>ajay</username>
       <password>password</password>
     </server>
     <server>
       <id>snapshot</id>
-      <username>admin</username>
+      <username>ajay</username>
       <password>password</password>
     </server>
   </servers>
