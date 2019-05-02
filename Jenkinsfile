@@ -25,10 +25,5 @@ pipeline {
         bat ' web.xml'
       }
     }
-    stage('Deploy') {
-      steps {
-        bat 'mvn tomcat8:deploy'
-      }
-    }
   }
 }
