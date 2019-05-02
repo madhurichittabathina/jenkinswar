@@ -7,7 +7,7 @@
         <repository>
           <id>release</id>
           <name>release</name>
-          <url>http://localhost:8081/artifactory/libs-release-local</url>
+          <url>http://localhost:8081/artifactory/maven-lib</url>
           <releases>
             <enabled>true</enabled>
           </releases>
@@ -18,7 +18,7 @@
         <repository>
           <id>snapshot</id>
           <name>snapshot</name>
-          <url>http://localhost:8081/artifactory/libs-snapshot-local</url>
+          <url>http://localhost:8081/artifactory/maven-snap</url>
           <releases>
             <enabled>false</enabled>
           </releases>
