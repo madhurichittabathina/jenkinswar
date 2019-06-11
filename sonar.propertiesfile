@@ -1,0 +1,4 @@
+mvn sonar:sonar 
+  sonar.projectKey=sonar-test 
+  sonar.host.url=http://3.81.99.230:9000 
+  sonar.login=716ff0f33d50d09a335394189d5d6ed982d8192a
