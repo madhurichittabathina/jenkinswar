@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('checkout') {
+    stage('scm') {
       steps {
-        bat(script: 'https://github.com/Ajayvarma8142/jenkinswar.git', encoding: 'master')
+        git(url: 'https://github.com/Ajayvarma8142/jenkinswar.git', branch: 'master')
       }
     }
   }
