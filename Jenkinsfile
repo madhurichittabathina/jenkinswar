@@ -16,5 +16,10 @@ pipeline {
         bat 'mvn sonar:sonar'
       }
     }
+    stage('deploy') {
+      steps {
+        bat 'xcopy "'
+      }
+    }
   }
 }
